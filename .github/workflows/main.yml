@@ -26,7 +26,6 @@ jobs:
       id-token: write
       contents: read
     steps:
-
       - uses: aws-actions/configure-aws-credentials@v1
         with:
           role-to-assume: arn:aws:iam::665654832036:role/GitHub-actions
